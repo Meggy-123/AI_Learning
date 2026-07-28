@@ -1,5 +1,4 @@
-# Day01 AI Engineer Learning
-
+# Day01 Python基础学习
 
 日期：
 
@@ -8,24 +7,7 @@
 
 ## 今日目标
 
-- 配置AI学习环境
-- 熟悉Git工作流程
-- 完成第一个Python程序
-
-
-## 今日完成
-
-✅ 创建AI_Learning仓库
-
-✅ Git连接GitHub
-
-✅ 创建学习目录结构
-
-
-## Python学习
-
-
-第一个程序：
-
-```python
-print("Hello AI")
+- 熟悉 Python 基础语法
+- 掌握变量和数据类型
+- 学习输入输出
+- 完成第一个交互程序
