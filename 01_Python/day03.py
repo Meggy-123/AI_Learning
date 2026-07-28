@@ -29,19 +29,39 @@
 # for i in range(1,day+1):
 #     print("Day",i,"完成学习")
 
-#今日项目：学生成绩分析系统 v1.0
-scores=[85,90,78,92,88]
-sum=0
-score_min=scores[0]
-score_max=scores[0]
-print("成绩列表")
-for score in scores:
-    print(score)
-    sum+=score
-    if score<score_min:
-        score_min=score
-    if score>score_max:
-        score_max=score
-print("最低成绩：", score_min)
-print("最高成绩：", score_max)
-print("平均成绩：", sum/len(scores))
+# #今日项目：学生成绩分析系统 v1.0
+# scores=[85,90,78,92,88]
+# sum=0
+# score_min=scores[0]
+# score_max=scores[0]
+# print("成绩列表")
+# for score in scores:
+#     print(score)
+#     sum+=score
+#     if score<score_min:
+#         score_min=score
+#     if score>score_max:
+#         score_max=score
+# print("最低成绩：", score_min)
+# print("最高成绩：", score_max)
+# print("平均成绩：", sum/len(scores))
+
+# #今日项目：学生成绩分析系统 v2.0
+# scores=[]
+# num=int(input("请输入学生人数："))
+# print("请输入学生成绩：")
+# for i in range(num):
+#     score=int(input())
+#     scores.append(score)
+# score_min=scores[0]
+# score_max=scores[0]
+# sum=0
+# for i in range(num):
+#     sum+=scores[i]
+#     if scores[i]<score_min:
+#         score_min=scores[i]
+#     if scores[i]>score_max:
+#         score_max=scores[i]
+# print("最低成绩：", score_min)
+# print("最高成绩：", score_max)
+# print("平均成绩：", sum/len(scores))
